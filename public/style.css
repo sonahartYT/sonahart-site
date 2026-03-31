@@ -465,6 +465,73 @@ img {
   transform: translateX(4px);
 }
 
+/* ===== Podcast Banner ===== */
+.podcast-banner {
+  margin-top: 48px;
+  background: var(--navy);
+  border-radius: 12px;
+  padding: 32px 36px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.podcast-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(237, 136, 13, 0.15);
+  color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.podcast-text {
+  flex: 1;
+}
+
+.podcast-text h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+
+.podcast-text p {
+  font-family: var(--font-secondary);
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+}
+
+.podcast-banner .btn-primary {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .podcast-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 28px 24px;
+  }
+
+  .podcast-banner .btn-primary {
+    width: 100%;
+  }
+}
+
+/* ===== WhatsApp Note ===== */
+.whatsapp-note {
+  font-family: var(--font-secondary);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin-top: 10px;
+  text-align: center;
+}
+
 /* ===== Subscribe ===== */
 .subscribe-section {
   padding: 100px 0;
