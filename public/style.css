@@ -208,7 +208,7 @@ img {
 
 .nav-cta {
   background: var(--navy);
-  color: var(--white) !important;
+  color: #ffffff !important;
   padding: 8px 20px;
   border-radius: 6px;
   font-size: 0.875rem;
@@ -217,6 +217,12 @@ img {
 
 .nav-cta:hover {
   background: var(--orange) !important;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .nav-toggle {
@@ -288,7 +294,7 @@ img {
 
 .btn-primary {
   background: var(--orange);
-  color: var(--white);
+  color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -309,7 +315,7 @@ img {
 
 .btn-whatsapp {
   background: #25D366;
-  color: var(--white);
+  color: #ffffff;
   width: 100%;
 }
 
@@ -567,7 +573,7 @@ img {
 /* ===== Podcast Banner ===== */
 .podcast-banner {
   margin-top: 48px;
-  background: var(--navy);
+  background: #142A47;
   border-radius: 12px;
   padding: 32px 36px;
   display: flex;
@@ -594,7 +600,7 @@ img {
 .podcast-text h3 {
   font-size: 1.1rem;
   font-weight: 700;
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 4px;
 }
 
@@ -638,7 +644,7 @@ img {
 }
 
 .subscribe-card {
-  background: var(--navy);
+  background: #142A47;
   border-radius: 16px;
   padding: 64px;
   text-align: center;
@@ -680,7 +686,7 @@ img {
 .subscribe-content h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 12px;
 }
 
@@ -704,7 +710,7 @@ img {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.1);
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-secondary);
   font-size: 0.95rem;
   outline: none;
